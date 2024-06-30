@@ -1,0 +1,81 @@
+.About-Me-Component{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 10px;
+}
+.Images-About-Me{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+.Images-About-Me img{
+    width: 100%;
+}
+.Texto-About-Me{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.H1-Me span{
+    color: var(--color-dos);
+}
+.Me-P{
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.skills{
+    width: 100%;
+    height: 200px;
+    margin-top: 90px;
+}
+.skills .tile{
+    text-align: center;
+}
+.skills-container{
+    display: grid;
+    place-content: center;
+    height: 100%;
+}
+
+.cont-princ-slider {
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slier-prin {
+    display: inline-flex;
+    -moz-animation: slider 8s infinite linear;
+    -webkit-animation: slider 8s infinite linear;
+    animation: slider 8s infinite linear;
+    height: 100%;
+    width: auto;
+  }
+  
+  .juegos_DWG {
+    height: 100%;
+    flex: 0 0 auto;
+    text-align: center;
+    width: 150px;
+  }
+  .juegos_DWG a{
+    color: var(--color-verde-oscuro);
+    font-size: 2em;
+  }
+  @keyframes slider {
+    to {
+      -moz-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }

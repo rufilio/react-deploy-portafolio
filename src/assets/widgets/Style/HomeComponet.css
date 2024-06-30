@@ -1,0 +1,100 @@
+.Home-Hero-Component{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+}
+.Hero-Text-Component{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Texto-Presentacion-H1{
+    color: var(--color-tres);
+    font-size: 2.4rem;
+}
+.Texto-Presentacion-Span{
+    color: var(--color-tres);
+    font-size: 16.5px;
+    width: 100%;
+    text-align: center;
+}
+.Button-Presentacion-A{
+    margin-top: 35px;
+
+}
+.links-P{
+    background-color: var(--color-dos);
+    padding: 10px 20px 10px 20px;
+    border-radius: 0.2rem;
+    color: var(--color-uno);
+    transition: all ease-in-out .2s;
+}
+.links-P:hover{
+    background-color: var(--color-dos-oscuro);
+}
+
+.Redes-Presentacion-R-A-L{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+.links-R{
+    color: var(--color-dos);
+    font-size: 1.5rem;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+   
+}
+.location span{
+    font-size: 14px;
+    color: var(--color-tres);
+    text-transform: capitalize;
+    cursor: none;
+}
+.links-L{
+    font-size: 1.4rem;
+    color: #000000;
+    animation: parpadeo linear infinite 1s;
+    cursor: none;
+}
+@keyframes parpadeo {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        color: var(--color-dos);
+    }
+}
+
+.Hero-Images-Component{
+    width: 50%;
+    height: 100%;
+    display: grid;  
+    place-content: center;
+}
+
+.Imagen-Hero{
+    width: 100%;
+    height: 100%;
+    animation:zoomParpadeante 2s ease-in-out infinite;
+}
+
+@keyframes zoomParpadeante {
+    0% {
+        transform: scale(1); /* Escala inicial (100%) */
+    }
+    50% {
+        transform: scale(1.1); /* Escala al 110% */
+    }
+    100% {
+        transform: scale(1); /* Vuelve a la escala inicial (100%) */
+    }
+}

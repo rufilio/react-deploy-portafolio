@@ -1,0 +1,10 @@
+.Proyectos-Main-Init{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    place-items: center;
+}
+.Proyectos-Main-Container-Center{
+    width: 1100px;
+    height: 100%;
+}
